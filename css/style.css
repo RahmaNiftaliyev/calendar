@@ -6,12 +6,26 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-.calendar {
-  max-width: 600px;
-  height: 600px;
+.calendarContainer {
+  padding: 10px;
+  max-width: 250px;
+  height: 280px;
   border: 1px solid black;
-  margin: calc((100vh - 600px) / 2) auto 0;
+  margin: calc((100vh - 600px) / 2) auto;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.buttonGroup button {
+  padding: 5px;
+}
+
+.table-calendar {
+  margin: 0 auto;
 }
 
 .rounded {
@@ -19,5 +33,4 @@
   border: 1px solid gray;
   border-radius: 10px;
   text-align: center;
-
 }
