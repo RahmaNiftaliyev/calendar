@@ -8,8 +8,16 @@
 
 
 .calendar {
-    max-width: 600px;
-    height: 600px;
-    border: 1px solid black;
-    margin:calc((100vh - 600px) / 2) auto 0 ;
+  max-width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  margin: calc((100vh - 600px) / 2) auto 0;
+}
+
+.rounded {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+
 }
